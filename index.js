@@ -92,7 +92,6 @@ const instagram = async () => {
   }
 
   // ADD THE POSTS ARRAY TO YOUR JSON DATA USER
-
   let instagram_user = {
     followers: user.edge_followed_by.count,
     following: user.edge_follow.count,
